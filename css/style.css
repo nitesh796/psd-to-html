@@ -139,6 +139,7 @@ ul {
   border-radius: 10px;
   padding: 5px 5px 0 5px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 .site-content {
   display: inline-block;
@@ -437,6 +438,9 @@ ul {
 .footer > ul > li ul {
   margin-top: 10px;
   line-height: 1.6em;
+}
+.footer > ul > li ul li:last-child {
+  margin-bottom: 15px;
 }
 
 
