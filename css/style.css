@@ -61,11 +61,6 @@ ul {
 .navbar.responsive{
   position: relative;
 }
-.navbar.responsive li:last-child {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
 .navbar.responsive li.nav-item {
   float: none;
   display: block;
@@ -474,6 +469,7 @@ ul {
   .navbar.responsive li.nav-item {
     display: block;
     text-align: left;
+    padding: 7px 10px;
   }
   .navbar.responsive li {
     border: none;
