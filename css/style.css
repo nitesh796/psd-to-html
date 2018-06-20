@@ -43,7 +43,7 @@ ul {
 }
 .leaf-img {
   opacity: .3;
-  background-image: url(http://localhost/nitesh/psd_to_html/img/leaf_1.png), url(http://localhost/nitesh/psd_to_html/img/leaf_2.png);
+  background-image: url(http://excellencetechnologies.co.in/nitesh/psd_to_html/img/leaf_1.png), url(http://excellencetechnologies.co.in/nitesh/psd_to_html/img/leaf_2.png);
   background-position: left center, right center;
   background-repeat: no-repeat;
 }
@@ -334,7 +334,7 @@ ul {
   padding-right: 10px;
 }
 .content .content-right .content-right-text .content-right-left-list ul li {
-  background: url(http://localhost/nitesh/psd_to_html/img/leaf_list.png) no-repeat left top;
+  background: url(http://excellencetechnologies.co.in/nitesh/psd_to_html/img/leaf_list.png) no-repeat left top;
   padding-left: 25px;
   padding-top: 3px;
   margin-bottom: 15px;
