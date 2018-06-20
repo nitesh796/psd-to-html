@@ -38,35 +38,42 @@ ul {
   font-size: 22px;
 }
 .leaf-img {
+  width: 150px;
+  height: 75px;
+}
+.leaf-img {
   opacity: .3;
-}
-.leaf-img img:first-child {
-  max-width: 45%;
-}
-.leaf-img img:last-child {
-  max-width: 30%;
+  background-image: url(http://localhost/nitesh/psd_to_html/img/leaf_1.png), url(http://localhost/nitesh/psd_to_html/img/leaf_2.png);
+  background-position: left center, right center;
+  background-repeat: no-repeat;
 }
 .search-section {
   margin: auto 0 auto 0;
+  margin-left: -15px;
   text-align: center;
 }
 .search-section small a {
-  color: #985552;.navbar.responsive{
-    position: relative;
-  }
-  .navbar.responsive li:last-child {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .navbar.responsive li.nav-item {
-    float: none;
-    display: block;
-    text-align: left;
-    padding-left: 0;
-    padding-right: 0;
-  }
+  color: #985552;
+  font-size: 11px;
+  font-family: sans-serif;
+  font-weight: 600;
 }
+.navbar.responsive{
+  position: relative;
+}
+.navbar.responsive li:last-child {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.navbar.responsive li.nav-item {
+  float: none;
+  display: block;
+  text-align: left;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .search-section small form {
   margin-top: 5px;
 }
@@ -326,7 +333,7 @@ ul {
   padding-right: 10px;
 }
 .content .content-right .content-right-text .content-right-left-list ul li {
-  background: url(http://localhost/nitesh/psd%20to%20html/img/leaf_list.png) no-repeat left top;
+  background: url(http://localhost/nitesh/psd_to_html/img/leaf_list.png) no-repeat left top;
   padding-left: 25px;
   padding-top: 3px;
   margin-bottom: 15px;
@@ -364,6 +371,7 @@ ul {
 .content .content-right .content-right-text .content-right-right-list .latest-news .latest-news-content p a {
   float: right;
   font-size: 11px;
+  color: #849f98;
 }
 .content .content-right .content-right-text .content-right-right-list .certifications {
   margin: 5px;
@@ -394,6 +402,7 @@ ul {
 }
 .footer .footer-copyright {
   font-size: 11px;
+  color: #3d3d3d;
   text-align: right;
   padding-right: 10px;
   line-height: 1.3em;
@@ -409,7 +418,7 @@ ul {
   font-size: 11px;
 }
 .footer ul li a {
-  color: #000;
+  color: #3d3d3d;
   text-decoration: none;
 }
 .footer > ul > li {
@@ -432,6 +441,12 @@ ul {
 
 
 /* Responsive */
+@media (max-width: 1280px) {
+  .content .content-right .slider-container .slider-caption {
+    width: 50%;
+    font-size: 32px;
+  }
+}
 @media (max-width: 1200px) {
   .header-upper {
     padding: 10px 15px;
